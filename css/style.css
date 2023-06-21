@@ -475,6 +475,7 @@
   border-radius: 11px;
   height: 50rem;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
 }
 
 .cta-text-box {}
