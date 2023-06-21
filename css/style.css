@@ -141,6 +141,7 @@
   filter: brightness(0);
   opacity: 50%;
 }
+
 /*****************************/
 /*** HOW IT WORKS SECTION  ***/
 /*****************************/
@@ -244,9 +245,11 @@
 .tag-vegetarian {
   background-color: #51cf66;
 }
+
 .tag-vegan {
   background-color: #94d82d;
 }
+
 .tag-paleo {
   background-color: #ffd43b;
 }
@@ -455,4 +458,28 @@
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/**************************/
+/****** CTA SECTION  ******/
+/**************************/
+
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  height: 50rem;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.cta-text-box {}
+
+.cta-img-box {
+  background-image: linear-gradient(to right bottom, rgb(235, 152, 78, 0.35), rgba(230, 125, 34, 0.35)), url(../img/media/eating.jpg);
+  background-size: cover;
 }
